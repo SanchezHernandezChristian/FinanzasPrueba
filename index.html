@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Card Hover Effects</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container row">
+      <div class="wtcard col-4">
+        <div class="face face1">
+          <div class="content">
+            <h3>Refrendo</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="wtcard col-4">
+        <div class="face face1">
+          <div class="content">
+            <h3>Homologación</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="wtcard col-4">
+        <div class="face face1">
+          <div class="content">
+            <h3>Sistema de inversión</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="wtcard col-4">
+        <div class="face face1">
+          <div class="content">
+            <h3>Banco de proyectos</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="wtcard col-4">
+        <div class="face face1">
+          <div class="content">
+            <h3>SAI</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="wtcard col-4">
+        <div class="face face1">
+          <div class="content">
+            <h3>Administración</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+  }
+
+  .container .wtcard {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .container .wtcard .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+  }
+
+  .container .wtcard .face.face1 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+  }
+
+  .container .wtcard:hover .face.face1 {
+    background: #ff0057;
+    transform: translateY(0);
+  }
+  .container .wtcard:nth-child(1) .face.face1 {
+    background: #2d9a8d;
+  }
+  .container .wtcard:nth-child(2) .face.face1 {
+    background: #cd0576;
+  }
+  .container .wtcard:nth-child(3) .face.face1 {
+    background: #96bc13;
+  }
+  .container .wtcard:nth-child(4) .face.face1 {
+    background: #a24291;
+  }
+  .container .wtcard:nth-child(5) .face.face1 {
+    background: #f4b21a;
+  }
+  .container .wtcard:nth-child(6) .face.face1 {
+    background: #15933e;
+  }
+
+  .container .wtcard .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+  .container .wtcard:hover .face.face1 .content {
+    opacity: 1;
+  }
+
+  .container .wtcard .face.face1 .content img {
+    max-width: 100px;
+  }
+
+  .container .wtcard .face.face1 .content h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .container .wtcard .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+  }
+
+  .container .wtcard:hover .face.face2 {
+    transform: translateY(0);
+  }
+
+  .container .wtcard .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container .wtcard .face.face2 .content a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+  }
+
+  .container .wtcard .face.face2 .content a:hover {
+    background: #333;
+    color: #fff;
+  }
+</style>
