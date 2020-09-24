@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 1000;
+    src: url(../vendor/material-design-icons/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(../vendor/material-design-icons/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+      url(../vendor/material-design-icons/iconfont/MaterialIcons-Regular.woff) format('woff'),
+      url(../vendor/material-design-icons/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+  }
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.navbar-SISE{
+    font-size: 50px
+}
+
+a.navbar-brand.texto{
+       font-size: 12px;
+}
+btn-lista{
+    background-color: red;
+}
+btn-lista:hover{
+    color: #FFF;
+    background-color: #ca2600;
+    border-color: #bd2300;
+}
+
+
+.titulo-form{
+    background-color: #579A8D; 
+}
+.resultado {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.resultado.ok {
+    background-color: green;
+}
+
+.icono_izquierda{
+    width: 24px !important; 
+    height: 24px !important;
+    -webkit-filter: invert(40%); 
+}
+
+.icono_izquierda_ancho{
+    width: 30px !important; 
+    height: 24px !important;
+    -webkit-filter: invert(40%); 
+}
+.icono_izquierda_alto{
+    width: 20px !important; 
+    height: 26px !important;
+    -webkit-filter: invert(40%); 
+}
+
+.icono_izquierda:hover {
+    cursor: pointer;
+    -webkit-filter: invert(10%); 
+  }
+
+.icono_izquierda_ancho:hover {
+    cursor: pointer;
+    -webkit-filter: invert(10%); 
+}
+.icono_izquierda_alto:hover {
+    cursor: pointer;
+    -webkit-filter: invert(10%); 
+}
+.icono_izquierda_seleccionado{
+    -webkit-filter: invert(5%); 
+}
+
+.icono_menu{
+    width: 48px !important; 
+    height: 48px !important; 
+}
+.icono_menu_disparejo{
+    width: 60px !important; 
+    height: 48px !important; 
+}
+
+.valign-center {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .valign-left {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    vertical-align: middle;
+    text-align: left;
+  }
+  .valign-right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    vertical-align: middle;
+    text-align: right;
+  }
+.btn-responsive {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+.menu{
+    font-size: 14pt;
+    height: 90%;
+    font-weight: bold; 
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+
+.btn-1{
+    background: #1F934C;  
+    border-color: #1F934C;
+}
+.btn-1:hover, .btn-1:focus, .btn-1:active, .btn-1.active, .open>.dropdown-toggle.btn-1 {
+    color: #fff;
+    background-color: #1b7e41;
+    border-color: #1b7e41;
+}
+.btn-2{
+    background: #9DBF3B;
+    border-color: #9DBF3B; 
+}
+.btn-2:hover, .btn-2:focus, .btn-2:active, .btn-2.active, .open>.dropdown-toggle.btn-2 {
+    color: #fff;
+    background: #84a132;
+    border-color: #84a132; 
+}
+.btn-3{
+    background: #579A8D; 
+    border-color: #579A8D;
+}
+.btn-3:hover, .btn-3:focus, .btn-3:active, .btn-3.active, .open>.dropdown-toggle.btn-3 {
+    color: #fff;
+    background: #467c72;
+    border-color: #467c72; 
+}
+.btn-4{
+    background: #B7156D;
+    border-color: #B7156D;
+}
+.btn-4:hover, .btn-4:focus, .btn-4:active, .btn-4.active, .open>.dropdown-toggle.btn-4 {
+    color: #fff;
+    background: #9D125E;
+    border-color: #9D125E; 
+}
+.btn-5{
+    background: #CD581F; 
+    border-color: #CD581F;
+}
+.btn-5:hover, .btn-5:focus, .btn-5:active, .btn-5.active, .open>.dropdown-toggle.btn-5 {
+    color: #fff;
+    background: #AD4A1A;
+    border-color: #AD4A1A; 
+}
+.btn-6{
+    background: #E6AD2F; 
+    border-color: #E6AD2F;
+}
+.btn-6:hover, .btn-6:focus, .btn-6:active, .btn-6.active, .open>.dropdown-toggle.btn-6 {
+    color: #fff;
+    background: #C6952A;
+    border-color: #C6952A; 
+}
+.btn-7{
+    background: #8D3B88; 
+    border-color: #8D3B88;
+}
+.btn-7:hover, .btn-7:focus, .btn-7:active, .btn-7.active, .open>.dropdown-toggle.btn-7 {
+    color: #fff;
+    background: #6B2D67;
+    border-color: #6B2D67; 
+}
+.btn-8{
+    background: #553276;
+    border-color: #553276;
+}
+.btn-8:hover, .btn-8:focus, .btn-8:active, .btn-8.active, .open>.dropdown-toggle.btn-8 {
+    color: #fff;
+    background: #3E2456;
+    border-color: #3E2456; 
+}
+.btn-9{
+    background: #C4131B; 
+    border-color: #C4131B;
+}
+.btn-9:hover, .btn-9:focus, .btn-9:active, .btn-9.active, .open>.dropdown-toggle.btn-9 {
+    color: #fff;
+    background: #A21017;
+    border-color: #A21017; 
+}
+.div_carga{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+	/*background: url(../img/GRIS.png) repeat;*/
+	display:none;
+	z-index:1;
+}
+
+.cargador{
+    display:block;
+    margin:auto;
+    
+    margin-top: 20%;
+    position: relative;
+}
+.seltitulo{
+    font-size: 16pt; 
+    font-weight: bold;
+    color:#777;
+}
+.selcolor{
+    color:  #237087;
+    font-size: 12pt;
+}
+.btn-guardar{
+    font-weight: bold;
+}
+
+.botonimagen{
+    background-image:url(../img/cartacompromiso.png);
+  }
+
+.notificacion{
+    color:  #237087;
+    font-size: 12pt;
+}
+
