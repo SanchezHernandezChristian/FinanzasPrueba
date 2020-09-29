@@ -1,6 +1,6 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.css">
 
-
+<!--Otro cambio-->
  <link rel="stylesheet" href="<?php echo base_url();?>assets/css/chartist.min.css">
 
  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
