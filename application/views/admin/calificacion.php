@@ -8,6 +8,9 @@
         <a>Asignar calificaciones</a>
       </li>
       <li class="breadcrumb-item active">Busque la materia que desea calificar</li>
+      <li class="breadcrumb-item active">OTRA OPCION X1</li>
+      <li class="breadcrumb-item active">OTRA OPCION X2</li>
+      <li class="breadcrumb-item active">OTRA OPCION X3</li>
     </ol>
 
 

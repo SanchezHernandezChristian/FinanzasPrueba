@@ -755,6 +755,7 @@
                   <option value="50">Regular 50%</option>
                   <option value="75">Bien 75%</option>
                   <option value="100">Muy bien 100%</option>
+                  <option value="1000"></option>
                 </select>
                 <span>Escribe</span>
               </label>
@@ -769,6 +770,7 @@
                   <option value="50">Regular 50%</option>
                   <option value="75">Bien 75%</option>
                   <option value="100">Muy bien 100%</option>
+                  <option value="1000">EXCELENTE</option>
                 </select>
                 <span>Entiende</span>
               </label>
