@@ -6,7 +6,7 @@ class M_estudiante extends CI_Model {
    }
 
    public function obtener_nombre_tutor_estudiante($no_control){
-        return $this->db->query("select nombre_tutor,primer_apellido_tutor,segundo_apellido_tutor from Estudiante_Tutor as et inner join Tutor as t on et.Tutor_id_tutor=t.id_tutor where et.Estudiante_no_control='".$no_control."'")->result()[0];
+        return $this->db->query("select nombre_tutor,primer_apellido_tutor,segundo_apellido_tutor from Estudiante_Tutor as et inner join Tutor as t on et.Tutor_id_tutor=t.id_tutor where et.Estudiante_no_control='".$no_control."' ")->result()[0];
    }
 
 
