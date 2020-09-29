@@ -43,7 +43,7 @@
               <input type="text" pattern="[A-ZÑña-z]+[ ]*[A-ZÑna-z ]*" required title="Introduzca solo letras"
                 class="form-control text-uppercase" id="aspirante_apellido_paterno" name="aspirante_apellido_paterno"
                 onchange="valida(this);" placeholder="Apellido Paterno" style="color: #237087 ">
-              <label for="aspirante_apellido_paterno">Primer Apellido</label>
+              <label for="aspirante_apellido_paterno">Apellido Paterno</label>
             </div>
           </div>
 
@@ -52,7 +52,7 @@
               <input type="text" pattern="[A-ZÑña-z]+[ ]*[A-ZÑna-z ]*" title="Introduzca solo letras"
                 class="form-control text-uppercase" id="aspirante_apellido_materno" name="aspirante_apellido_materno"
                 onchange="valida(this);" placeholder="Apellido Materno" style="color: #237087 ">
-              <label for="aspirante_apellido_materno">Segundo Apellido</label>
+              <label for="aspirante_apellido_materno">Apellido Materno</label>
             </div>
           </div>
         </div>
