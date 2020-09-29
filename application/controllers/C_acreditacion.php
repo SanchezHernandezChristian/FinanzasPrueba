@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+/* Prueba de Comentario 29/09/2020 Inicial*/
 class C_acreditacion extends CI_Controller
 {
     public function __construct(){
