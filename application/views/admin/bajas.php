@@ -52,8 +52,9 @@
 
             </div>
 
+
             <div class="col-md-4">
-              <button type='button' class="btn btn-success btn-lg btn-block" id="btn_buscar"
+              <button type='button' class="btn btn-success btn-lg btn-block" id="btn_buscarNOVO"
                 onclick='buscar()'>Buscar</button>
             </div>
 
@@ -233,10 +234,10 @@
         formato_tabla();
       };
       xhr.send(null);
-      document.getElementById('btn_buscar').setAttribute("onClick", "limpiar();");
-      document.getElementById('btn_buscar').innerHTML = 'Limpiar Búsqueda';
-      document.getElementById('btn_buscar').classList.remove('btn-success');
-      document.getElementById('btn_buscar').classList.add('btn-info');
+      document.getElementById('btn_buscarNOVO').setAttribute("onClick", "limpiar();");
+      document.getElementById('btn_buscarNOVO').innerHTML = 'Limpiar Búsqueda';
+      document.getElementById('btn_buscarNOVO').classList.remove('btn-success');
+      document.getElementById('btn_buscarNOVO').classList.add('btn-info');
       document.getElementById('busqueda_oculto').style.display = "";
     }
 
