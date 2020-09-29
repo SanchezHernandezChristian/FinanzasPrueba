@@ -73,6 +73,7 @@
               <div class="form-group has-float-label seltitulo ">
                 <textarea type="text" class="form-control text-uppercase" id="mensaje_notificacion" rows="6"></textarea>
                 <label for="mensaje_notificacion">Mensaje de la notificación</label>
+                <p> * algo que no debería estar aqí*</p>
               </div>
             </div>
 
@@ -152,7 +153,7 @@
     } else {
       Swal.fire({
         type: 'warning',
-        text: 'La fecha ingresada es incorrecta'
+        text: 'La fecha ingresada es incorrecta' + '%hack intente ser mas cuidadoso%'
       });
     }
   }
